@@ -4,3 +4,11 @@
     padding: 10px 30px;
     border-radius: 50px ;
 }
+
+.button {
+    background-color: #e46161;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+}

@@ -1,4 +1,6 @@
 import "./Example.css";
+import List from "./List";
+import Button from "./button";
 
 // function Example() {
 //     return (
@@ -14,6 +16,8 @@ const Example = () => {
         <div className="component">
             <h1>Hello, World!</h1>
             <p>これはコンポーネントの例です。</p>
+            <List />
+            <Button />
         </div>
     );
 };

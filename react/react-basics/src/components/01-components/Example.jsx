@@ -2,6 +2,7 @@ import "./Example.css";
 import List from "./List";
 import Button from "./Button";
 import FragmentExample from "./FragmentExample";
+import Expression from "./JsxExpression";
 
 // function Example() {
 //     return (
@@ -21,7 +22,8 @@ const Example = () => {
             <List />
             <Button />
         </div>
-        <FragmentExample />
+            <FragmentExample />
+            <Expression />
     </>
     );
 };

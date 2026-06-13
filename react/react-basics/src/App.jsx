@@ -1,4 +1,4 @@
-import Example from "./components/02-props/Example";
+import Example from "./components/02-props/props-practice/BookExample";
 
 function App() {
   return <Example />;

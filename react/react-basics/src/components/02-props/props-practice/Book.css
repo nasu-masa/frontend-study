@@ -1,0 +1,9 @@
+.book {
+  border: 7px solid green;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 12px 0;
+  color: green;
+  text-align: center;
+  font-weight: 600;
+}

@@ -28,9 +28,8 @@ src/components 配下に学習内容ごとのサンプルを配置していま�
 例：
 
 * `01-components`
-* `02-jsx`
-* `03-props`
-* `04-usestate`
+* `02-props`
+* `03-usestate`
 
 ## 起動方法
 

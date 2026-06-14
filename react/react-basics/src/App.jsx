@@ -1,4 +1,4 @@
-import CardLesson from "./components/02-props/props-practice/card-composition/CardLesson";
+import CardLesson from "./components/03-events-state/event-types";
 
 function App() {
   return <CardLesson />;

@@ -1,0 +1,7 @@
+.hover-box {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid black;
+  width: fit-content;
+  cursor: pointer;
+}

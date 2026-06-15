@@ -32,23 +32,23 @@ const Example = () => {
 
   const priceDecrease = () => {
     setProduct((prevProduct) => {
-      if (prevProduct.price <= 0) return prevProduct;
-
-      return {
-        ...prevProduct,
-        price: prevProduct.price - 100,
-      };
+      return prevProduct.price <= 0
+        ? prevProduct
+        : {
+            ...prevProduct,
+            price: prevProduct.price - 100,
+          };
     });
   };
 
   const stockDecrement = () => {
     setProduct((prevProduct) => {
-      if (prevProduct.stock <= 0) return prevProduct;
-
-      return {
-        ...prevProduct,
-        stock: prevProduct.stock - 1,
-      };
+      return prevProduct.stock <= 0
+        ? prevProduct
+        : {
+            ...prevProduct,
+            stock: prevProduct.stock - 1,
+          };
     });
   };
   // 外のproduct ＝ 現在のstate（コンポーネントが持っている値）

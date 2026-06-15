@@ -3,6 +3,8 @@ import { useState } from "react";
 const Example = () => {
   // POINT: Stateによって表示内容を切り替えられる
   const [isVisible, setIsVisible] = useState(false);
+  const [count, setCount] = useState(0);
+  // POINT: useStateはトップレベルで呼ぶ（呼び出し順でstateを管理しているため）
 
   const handleClick = () => {
     setIsVisible(!isVisible);
@@ -11,10 +13,21 @@ const Example = () => {
   };
 
   return (
-    <div>
-      <button onClick={handleClick}>切り替え</button>
-      {isVisible && <p>表示されています</p>}
-    </div>
+    <>
+      <button onClick={handleClick}>button表示</button>
+      {isVisible && (
+        <>
+          <button
+            onClick={() => {
+              setCount(count + 1);
+            }}
+          >
+            押してね
+          </button>
+          <p> {count}回押された</p>
+        </>
+      )}
+    </>
   );
 };
 

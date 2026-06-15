@@ -3,6 +3,7 @@ import Counter from "./counter";
 import Toggle from "./toggle";
 import Prev from "./prev";
 import PrevObject from "./object-state-prev-practice";
+import PropsState from "./props-state-text-counter";
  
 const Parent = () => {
   return (
@@ -31,6 +32,11 @@ const Parent = () => {
 
       <h2>5. PrevObject</h2>
       <PrevObject />
+
+      <hr />
+
+      <h2>6. PropsState</h2>
+      <PropsState />
 
       <hr />
     </div>

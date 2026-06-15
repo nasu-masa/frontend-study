@@ -133,12 +133,15 @@ name や age を「キー（プロパティ名）」という
 例：
 ```js
 const sample = {
+  //　プリミティブ型　値そのものを持つ（イミュータブル＝変更できない）
   text: "Hello",            // 文字列
   count: 10,                // 数値
   isAdmin: true,            // 真偽値
+  //　オブジェクト型　
   items: [1, 2, 3],         // 配列
   user: { name: "Tom" },    // オブジェクト
   greet: () => "Hi",        // 関数
+
 };
 ```
 Reactでは、propsもReact要素もJavaScriptオブジェクトとして扱われている。

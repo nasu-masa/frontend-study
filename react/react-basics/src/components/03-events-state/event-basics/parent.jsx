@@ -1,4 +1,4 @@
-import Example from "./event-basics/click-handler";
+import Example from "./click-handler";
 import TextSync from "./text-sync";
 import Counter from "./counter";
 import Toggle from "./toggle";

@@ -4,7 +4,7 @@ import Toggle from "./toggle";
 import Prev from "./prev";
 import PrevObject from "./object-state-prev-practice";
 import PropsState from "./props-state-text-counter";
- 
+import PropsStateProfile from "./props-state-user-profile";
 const Parent = () => {
   return (
     <div>
@@ -37,6 +37,11 @@ const Parent = () => {
 
       <h2>6. PropsState</h2>
       <PropsState />
+
+      <hr />
+
+      <h2>7. PropsStateProfile</h2>
+      <PropsStateProfile />
 
       <hr />
     </div>

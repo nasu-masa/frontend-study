@@ -1,4 +1,4 @@
-import CardLesson from "./components/03-events-state/useState-basics/parent";
+import CardLesson from "./components/04-control_and_form/parent";
 
 function App() {
   return <CardLesson />;

@@ -1,4 +1,4 @@
-const Example = () => {
+const ClickHandler = () => {
   const clickHandler = () => {
     alert("ボタンがクリックされました。");
   };
@@ -27,4 +27,4 @@ const Example = () => {
   );
 };
 
-export default Example;
+export default ClickHandler;

@@ -1,5 +1,5 @@
-import "./event-types.css";
-const Example = () => {
+import "./EventTypes.css";
+const EventTypes = () => {
   return (
     <div>
       <h3>コンソールを確認してください。</h3>
@@ -70,4 +70,4 @@ const Example = () => {
   );
 };
 
-export default Example;
+export default EventTypes;

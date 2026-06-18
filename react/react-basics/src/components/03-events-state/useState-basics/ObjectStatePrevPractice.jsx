@@ -9,7 +9,7 @@ const productObj = {
   stock: 5,
 };
 
-const Example = () => {
+const ObjectStatePrevPractice = () => {
   const [product, setProduct] = useState(productObj);
 
   const changeName = (e) => {
@@ -91,4 +91,4 @@ const Example = () => {
   );
 };
 
-export default Example;
+export default ObjectStatePrevPractice;

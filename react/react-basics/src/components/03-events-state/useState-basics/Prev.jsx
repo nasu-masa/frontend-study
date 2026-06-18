@@ -3,7 +3,7 @@ import { useState } from "react";
 // POINT: 前のStateをもとに更新するときは prev を使う
 // setCount(prev => prev + 1)
 
-const Example = () => {
+const Prev = () => {
   const [count, setCount] = useState(0);
 
   const countUp = () => {
@@ -25,4 +25,4 @@ const Example = () => {
   );
 };
 
-export default Example;
+export default Prev;

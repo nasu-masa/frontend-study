@@ -1,6 +1,6 @@
-import Book from "./map-practice-book";
+import Book from "./MapPracticeBook";
 
-const Example = () => {
+const MapPracticeApp = () => {
   const books = [
     { title: "React入門", price: 2800, genres: ["React", "JavaScript"] },
     { title: "JavaScript基礎", price: 2400, genres: ["JavaScript", "ES6"] },
@@ -15,4 +15,4 @@ const Example = () => {
     </>
   );
 };
-export default Example;
+export default MapPracticeApp;

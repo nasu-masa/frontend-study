@@ -1,6 +1,6 @@
-import Movie from "./map-practice-movie";
+import Movie from "./MapPracticeMovie";
 
-const Example = () => {
+const MapPracticeMovies = () => {
   const movies = [
     {
       title: "Interstellar",
@@ -22,4 +22,4 @@ const Example = () => {
   );
 };
 
-export default Example;
+export default MapPracticeMovies;

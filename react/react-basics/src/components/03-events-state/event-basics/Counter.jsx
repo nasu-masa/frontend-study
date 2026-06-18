@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Example = () => {
+const Counter = () => {
   const [count, setCount] = useState(0);
 
   // POINT: setStateで値を更新すると画面も更新される
@@ -16,4 +16,4 @@ const Example = () => {
   );
 };
 
-export default Example;
+export default Counter;

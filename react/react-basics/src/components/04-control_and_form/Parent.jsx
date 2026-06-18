@@ -1,5 +1,5 @@
-import MapPractice from "./map-practice-app";
-import MapPracticeMovie from "./map-practice-movies";
+import MapPractice from "./MapPracticeApp";
+import MapPracticeMovie from "./MapPracticeMovies";
 import Example from "./User";
 
 const Parent = () => {

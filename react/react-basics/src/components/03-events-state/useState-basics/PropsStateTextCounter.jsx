@@ -14,7 +14,7 @@ import { useState } from "react";
 // ・useStateを使って文字列Stateを1つ定義する。
 // ・初期値は空文字 "" とする。
 // ・必要なPropsを子コンポーネントへ渡す。
-const Example = () => {
+const PropsStateTextCounter = () => {
   const [text, setText] = useState("");
   return (
     <>
@@ -47,7 +47,7 @@ const TextResult = ({ text }) => {
   );
 };
 
-export default Example;
+export default PropsStateTextCounter;
 
 // 【完成イメージ】
 //

@@ -1,10 +1,10 @@
-import TextSync from "./text-sync";
-import Counter from "./counter";
-import Toggle from "./toggle";
-import Prev from "./prev";
-import PrevObject from "./object-state-prev-practice";
-import PropsState from "./props-state-text-counter";
-import PropsStateProfile from "./props-state-user-profile";
+import TextSync from "./TextSync";
+import Counter from "./Counter";
+import Toggle from "./Toggle";
+import Prev from "./Prev";
+import PrevObject from "./ObjectStatePrevPractice";
+import PropsState from "./PropsStateTextCounter";
+import PropsStateProfile from "./PropsStateUserProfile";
 const Parent = () => {
   return (
     <div>

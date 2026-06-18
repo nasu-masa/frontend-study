@@ -1,7 +1,7 @@
-import Example from "./click-handler";
-import TextSync from "./text-sync";
-import Counter from "./counter";
-import Toggle from "./toggle";
+import ClickHandler from "./ClickHandler";
+import TextSync from "./TextSync";
+import Counter from "./Counter";
+import Toggle from "./Toggle";
 
 const Parent = () => {
   return (

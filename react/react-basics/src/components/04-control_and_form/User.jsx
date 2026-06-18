@@ -14,9 +14,12 @@ const Example = () => {
   const [userVal, setUserVal] = useState("");
 
   const filteredUsers = users.filter((user) => {
+    const keyword = userVal.toLowerCase();
+
+    if (keyword === "") return true; 
     return (
-      user.name.includes(userVal) ||
-      user.role.includes(userVal)
+      user.name.includes(keyword) ||
+      user.role.includes(keyword)
     );
   })
 

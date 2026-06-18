@@ -29,7 +29,7 @@ import { useState } from "react";
 // ・名前の文字数も表示する。
 // ・Propsで受け取った値のみを使う。
 
-const Example = () => {
+const PropsStateUserProfile = () => {
   const [name, setName] = useState("");
   const nameChange = (e) => setName(e.target.value);
   return (
@@ -58,7 +58,7 @@ const ProfileCard = ({ name }) => {
   );
 };
 
-export default Example;
+export default PropsStateUserProfile;
 
 // 【完成イメージ】
 //

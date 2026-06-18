@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Example = () => {
+const Toggle = () => {
   // POINT: Stateによって表示内容を切り替えられる
   const [isVisible, setIsVisible] = useState(false);
   const [count, setCount] = useState(0);
@@ -31,4 +31,4 @@ const Example = () => {
   );
 };
 
-export default Example;
+export default Toggle;

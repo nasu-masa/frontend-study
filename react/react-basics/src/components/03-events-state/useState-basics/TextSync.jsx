@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 // POINT: Stateを入力値と同期する
-const Example = () => {
+const TextSync = () => {
   const [text, setText] = useState("");
 
   // POINT: onChange → setState → 再レンダリング
@@ -22,4 +22,4 @@ const Example = () => {
   );
 };
 
-export default Example;
+export default TextSync;

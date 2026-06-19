@@ -1,6 +1,7 @@
 import MapPractice from "./MapPracticeApp";
 import MapPracticeMovie from "./MapPracticeMovies";
-import Example from "./User";
+import User from "./User";
+import Product from "./Example";
 
 const Parent = () => {
     return (
@@ -13,7 +14,11 @@ const Parent = () => {
         <hr />
 
         <h2>2. Filter + Map + useState + Props</h2>
-        <Example />
+        <User />
+        <hr />
+
+        <h2>3. Filter + Map + useState + Props + components</h2>
+        <Product />
         <hr />
       </>
     );

@@ -1,0 +1,50 @@
+.example {
+  padding: 40px;
+  font-family: sans-serif;
+}
+
+.show-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.show-button:hover {
+  background-color: #357abd;
+}
+
+/* Toast は body直下に描画されるため、fixed で画面右下に固定 */
+.toast {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 20px;
+  background-color: #323232;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  font-size: 15px;
+  min-width: 200px;
+}
+
+.toast-close {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  line-height: 1;
+  padding: 0;
+  margin-left: auto;
+}
+
+.toast-close:hover {
+  opacity: 0.7;
+}

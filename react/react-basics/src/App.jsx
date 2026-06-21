@@ -1,4 +1,4 @@
-import CardLesson from "./components/05-todo-practice/App";
+import CardLesson from "./components/06-other_function/Example";
 
 function App() {
   return <CardLesson />;

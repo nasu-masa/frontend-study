@@ -6,20 +6,21 @@ const BookForm = () => {
 
   const dispatch = useDispatchBook();
 
-  const newBook = (e) => {
+  const addBook = (e) => {
     e.preventDefault();
-    dispatch({
-      type: "add", book: {
-        id: Date.now(),
-        title: enteredTitle,
-      }
-    });
+    const newBook = {
+      id: Date.now(),
+      title: enteredTitle,
+    };
+
+    dispatch({ type: "add", book: newBook });
+
     setEnteredTitle("");
   };
 
   return (
     <div>
-      <form onSubmit={newBook}>
+      <form onSubmit={addBook}>
         <input
           type="text"
           value={enteredTitle}

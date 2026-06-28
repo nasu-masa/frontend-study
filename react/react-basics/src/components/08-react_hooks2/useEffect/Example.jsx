@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Timer from "./components/Timer";
 import Count from "./components/Count";
+import TimerCustom from "../customHooks/Timer";
 
 const Example = () => {
   const [isDisp, setIsDisp] = useState(true);
@@ -18,6 +19,7 @@ const Example = () => {
           {isDisp ? "閉じる" : "開く"}
         </button>
       </div>
+      <TimerCustom />
     </>
   );
 };

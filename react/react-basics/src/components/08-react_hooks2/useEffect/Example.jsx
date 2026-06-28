@@ -1,46 +1,23 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import Timer from "./components/Timer";
+import Count from "./components/Count";
 
 const Example = () => {
-  const [count, setCount] = useState(0);
   const [isDisp, setIsDisp] = useState(true);
-
-  const isFirstRender = useRef(true);
-
-  useEffect(() => {
-    if (isFirstRender.current) {
-      isFirstRender.current = false;
-      return;
-    }
-    console.log("count changed");
-  }, [count]);
   // StrictMode（開発環境）では、
-  // 副作用のバグ検出のため useEffect が追加実行されることがある。
+  // 副作用のバグ検出のため 一度アンマウントされて再マウントされる」。
   // ※ 本番環境では通常どおり実行される。
 
   return (
     <>
-      <h2 style={{ color: "blue" }}>カウント</h2>
-      <h3>{count}</h3>
-      <button
-        onClick={() => {
-          setCount((prev) => prev + 1);
-        }}
-      >
-        カウントアップ
-      </button>
-      <button
-        onClick={() => {
-          setCount((prev) => (prev <= 0 ? prev : prev - 1));
-        }}
-      >
-        カウントダウン
-      </button>
+      <Count />
       <h2>タイマー</h2>
       {isDisp && <Timer />}
-      <button onClick={() => setIsDisp((prev) => !prev)}>
-        {isDisp ? "閉じる" : "開く"}
-      </button>
+      <div>
+        <button onClick={() => setIsDisp((prev) => !prev)}>
+          {isDisp ? "閉じる" : "開く"}
+        </button>
+      </div>
     </>
   );
 };

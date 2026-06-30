@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Timer from "./components/Timer";
 import Count from "./components/Count";
 import TimerCustom from "../customHooks/Timer";
+import Weather from "./weatherList/Weather";
 
 const Example = () => {
   const [isDisp, setIsDisp] = useState(true);
@@ -20,6 +21,7 @@ const Example = () => {
         </button>
       </div>
       <TimerCustom />
+      <hr />
     </>
   );
 };

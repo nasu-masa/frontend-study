@@ -30,6 +30,6 @@ const Parent = () => {
       <button onClick={handleClickB}>カウントB+1</button>
     </>
   );
-  //関数やオブジェクトは毎回新しい参照になるので、渡すとmemoが効かなくなることがある。memoを使う場合は、関数やオブジェクトを渡すときはuseCallbackやuseMemoを使うこと。
+  //関数やオブジェクトは毎回新しい参照になるので、渡すとmemoが効かなくなることがある。memoを使う場合に、関数やオブジェクトを渡すときはuseCallbackやuseMemoを使うこと。
 };
 export default Parent;

@@ -1,4 +1,4 @@
-import CardLesson from "./components/09-performance/React-memo/Parent";
+import CardLesson from "./components/09-performance/useCallback/Parent";
 
 function App() {
   return <CardLesson />;

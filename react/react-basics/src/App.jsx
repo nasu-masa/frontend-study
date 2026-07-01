@@ -1,4 +1,4 @@
-import CardLesson from "./components/09-performance/useCallback/Parent";
+import CardLesson from "./components/09-performance/Parent";
 
 function App() {
   return <CardLesson />;

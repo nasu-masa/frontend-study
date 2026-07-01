@@ -1,4 +1,4 @@
-import CardLesson from "./components/08-react_hooks2/useEffect/weatherList/WeatherExample";
+import CardLesson from "./components/09-performance/React-memo/Parent";
 
 function App() {
   return <CardLesson />;

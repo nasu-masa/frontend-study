@@ -1,4 +1,4 @@
-import CardLesson from "./components/09-performance/Parent";
+import CardLesson from "./components/10-REST_API/App";
 
 function App() {
   return <CardLesson />;

@@ -1,0 +1,20 @@
+{
+  "todos": [
+    {
+      "title": "JSON Serverを起動する",
+      "completed": true,
+      "id": "TGaL7XpavQE"
+    },
+    {
+      "title": "Axiosでデータを取得する",
+      "completed": false,
+      "id": "ftQ-LFjGK3s"
+    },
+    {
+      "title": "useReducerで状態を管理する",
+      "completed": false,
+      "id": "C27I46TYsyI"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
